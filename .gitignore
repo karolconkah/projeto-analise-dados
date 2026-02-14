@@ -2,3 +2,4 @@ vendas.db
 __pycache__/
 .ipynb_checkpoints/
 .env
+*.db
