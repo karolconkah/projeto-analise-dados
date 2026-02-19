@@ -1,45 +1,115 @@
-Este projeto realiza uma análise completa de vendas utilizando:
+Análise de Vendas com Python e Estatística
+Sobre o projeto
+
+Este projeto realiza uma análise completa de vendas com foco em desempenho de lojas, gerentes e regiões, utilizando técnicas de análise exploratória de dados, estatística inferencial e modelagem preditiva.
+
+O objetivo foi identificar padrões de faturamento, avaliar o cumprimento de metas e gerar previsões futuras com base nos dados históricos.
+
+Tecnologias utilizadas
+
 Python
+
 Pandas
-Seaborn / Matplotlib
-SQLite (SQL)
+
+Seaborn
+
+Matplotlib
+
+SQLite
+
 Jupyter Notebook
-Scikit Learn 
-Scipy.stats
 
-O objetivo foi analisar o desempenho de lojas e gerentes, identificar regiões com maior faturamento,, verificar o cumprimento de metas e fazer análises estatísticas em geral. 
+Scikit-Learn
 
-Análises realizadas 
-Limpeza e tratamento de dados
-Criação de novas colunas estratégicas: Cálculo de faturamento, Região
-Análise mensal
+SciPy (scipy.stats)
+
+Etapas do projeto
+1. Limpeza e tratamento de dados
+
+Remoção de inconsistências
+
+Tratamento de valores ausentes
+
+Criação de colunas estratégicas (ex: Região)
+
+2. Análise exploratória
+
+Análise mensal de faturamento
+
 Ranking de faturamento por loja
-Ranking por gerente
+
+Ranking de desempenho por gerente
+
 Verificação de metas batidas
+
 Agrupamento por região
-Mesclagem da tabela gerentes com a tabela de vendas
-Visualizações gráficas
-Criação e consulta de banco SQL
-JOIN entre tabelas no SQLite
-Utilização do Scikit Learn para realizar regressão linear simples para a obtenção a análise do valor real em comparação ao valor previsto e para a análise de influencia de variáveis sobre o faturamento
-Previsão com Scikit Learn sobre o faturamento mensal dos 3 primeiros próximos meses seguintes da última data mês/ano da tabela do banco de dados 
-Utilização do Scipy.stats para testes de hipótese, intervalos de confiança, teste Qui-Quadrado, ANOVA, Levene. 
 
+Mesclagem da tabela de gerentes com vendas
 
-Principais insights 
-Identificação das lojas com maior faturamento.
-Comparação mensal entre regiões.
-Avaliação do desempenho dos gerentes.
-Análise de cumprimento de metas.
-Análise das Médias entre os gerentes (por venda e por mês) 
-Análise da consistência (variância) entre gerentes.
-Análise da média global do faturamento.
-Análise sobre proporção de vendas múltiplas.
-Análise sobre influência de Produto × Região.
+3. Visualizações
 
-Foi utilizado SQLite para:
-Criar tabela de vendas
-Criar tabela de gerentes
-Realizar JOIN entre tabelas
-Criar rankings via SQL
+Gráficos comparativos por região
 
+Evolução mensal do faturamento
+
+Comparações entre gerentes
+
+Distribuições e variância
+
+4. Banco de dados
+
+Utilização de SQLite para:
+
+Criação da tabela de vendas
+
+Criação da tabela de gerentes
+
+JOIN entre tabelas
+
+Criação de rankings via SQL
+
+5. Modelagem preditiva
+
+Regressão linear simples com Scikit-Learn
+
+Comparação entre valores reais e previstos
+
+Análise de influência de variáveis
+
+Previsão de faturamento para os 3 meses seguintes
+
+6. Estatística inferencial
+
+Utilização do scipy.stats para:
+
+Testes de hipóteses
+
+Intervalos de confiança
+
+Teste Qui-Quadrado
+
+ANOVA
+
+Teste de Levene (análise de variância)
+
+Principais insights obtidos
+
+Identificação das lojas com maior faturamento
+
+Comparação de desempenho entre regiões
+
+Avaliação do desempenho individual dos gerentes
+
+Análise de cumprimento de metas
+
+Comparação de médias entre gerentes
+
+Análise de consistência (variância)
+
+Proporção de vendas múltiplas
+
+Influência Produto × Região no faturamento
+
+Objetivo
+
+Aplicar técnicas de análise de dados, estatística e machine learning para gerar insights estratégicos e previsões de desempenho.
