@@ -1,4 +1,5 @@
 Análise de Vendas com Python e Estatística
+
 Sobre o projeto
 
 Este projeto realiza uma análise completa de vendas com foco em desempenho de lojas, gerentes e regiões, utilizando técnicas de análise exploratória de dados, estatística inferencial e modelagem preditiva.
