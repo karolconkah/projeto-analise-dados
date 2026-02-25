@@ -114,3 +114,107 @@ Influência Produto × Região no faturamento
 Objetivo
 
 Aplicar técnicas de análise de dados, estatística e machine learning para gerar insights estratégicos e previsões de desempenho.
+
+
+Dashboard Interativo de Análise de Vendas
+
+Aplicação desenvolvida em Python utilizando Streamlit para análise dinâmica de desempenho de vendas por gerente.
+
+Acesse o dashboard online:
+https://dashboard-vendas-karoline.streamlit.app
+
+Tecnologias Utilizadas
+
+Python 3
+
+Pandas
+
+Plotly
+
+Streamlit
+
+Git e GitHub
+
+Funcionalidades
+
+O dashboard permite:
+
+Filtro por gerente
+
+Filtro por período (Mês/Ano)
+
+Métricas dinâmicas:
+
+Faturamento total
+
+Média de faturamento
+
+Total de registros
+
+Evolução mensal do faturamento
+
+Comparação mensal entre gerentes
+
+Ranking automático de performance
+
+Crescimento percentual mês a mês
+
+Índice de consistência (Coeficiente de Variação)
+
+Objetivo do Projeto
+
+Demonstrar aplicação prática de análise de dados utilizando:
+
+Agregações com Pandas
+
+Cálculo de métricas estatísticas
+
+Visualização interativa com Plotly
+
+Deploy em produção via Streamlit Cloud
+
+O projeto simula um cenário real de análise de performance comercial, permitindo identificar:
+
+Top performers
+
+Estabilidade de desempenho
+
+Tendências mensais
+
+Variações sazonais
+
+Principais Análises Estatísticas Implementadas
+
+Média e desvio padrão
+
+Crescimento percentual mensal
+
+Ranking por faturamento
+
+Coeficiente de variação (CV%)
+
+Análise de consistência de performance
+
+Como Executar Localmente
+
+Clone o repositório:
+
+git clone https://github.com/karolconkah/projeto-analise-dados
+
+Instale as dependências:
+
+pip install -r requirements.txt
+
+Execute a aplicação:
+
+streamlit run dashboard.py
+
+Deploy
+
+Aplicação hospedada via Streamlit Community Cloud.
+
+Autora
+
+Karoline Vieira Neves
+Estudante de Ciência de Dados
+Foco em análise de dados, estatística aplicada e visualização interativa.
